@@ -19,8 +19,13 @@ button {
 button:hover {
 	background-color: #008CBA;
 	color: white;
+	cursor: pointer;
 }
 
 #amount {
 	color: white;
+}
+
+#volcontrol:hover {
+	cursor: pointer;
 }
