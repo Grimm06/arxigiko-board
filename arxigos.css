@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-image: url("a/img/darkness.png");
+    font-family: helvetica;
+}
+
+button {
+	color: #0099CC;
+	background: transparent;
+	border: 2px solid #0099CC;
+	border-radius: 6px;
+	width: 20em;
+	height: 6em;
+	mix-blend-mode: difference;
+	font-weight: bold;
+	text-shadow: 2px solid white;
+}
+
+button:hover {
+	background-color: #008CBA;
+	color: white;
+}
