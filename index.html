@@ -71,6 +71,8 @@
         <br>
         <br>
         <br>
-        <input type="range" id="vol-control" min="0" max="100" step="1" oninput="setVolume(this.value)" onchange="setVolume(this.value)"></input>
+        <output name ="amount" id="amount" for="volcontrol">50</output>
+        <br>
+        <input type="range" id="volcontrol" min="0" max="100" step="1" oninput="setVolume(this.value);amount.value=volcontrol.value" onchange="setVolume(this.value);amount.value=volcontrol.value"></input>
     </body>
 </html>

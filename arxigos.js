@@ -127,7 +127,6 @@
 
 	function setVolume(val){
 		player.volume = val / 100;
-		console.log(player.volume);
 	}
 
 	function PlaySound(clip) {
